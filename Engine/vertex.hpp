@@ -19,6 +19,7 @@ struct ColorRGBA8
 	GLubyte b;
 	GLubyte a;
 };
+typedef ColorRGBA8 Color;
 
 struct UV 
 {
