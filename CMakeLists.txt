@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 3.0)
+project (schemy-melody)
+add_subdirectory(Engine)
+add_subdirectory(Melody)
+add_dependencies(melodygame melody)
