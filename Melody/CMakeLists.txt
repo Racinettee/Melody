@@ -19,4 +19,4 @@ target_link_libraries(melodygame melody SDL2 GLEW GL)
 set_property(TARGET melodygame PROPERTY CXX_STANDARD 14)
 
 install(TARGETS melodygame
-	RUNTIME DESTINATION ../bin)
+	RUNTIME DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/../bin)

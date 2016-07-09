@@ -2,9 +2,10 @@
 *.exe
 *.a
 *.lib
-*.so
 *.out
+*.so
+*.dll
 *.VC.db
 *.VC.db*
-bin/
 build/
+bin/
