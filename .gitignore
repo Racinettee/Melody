@@ -1,4 +1,9 @@
 *.o
 *.exe
+*.a
+*.lib
+*.so
+*.dll
 build/
+bin/
 *.VC.db*
