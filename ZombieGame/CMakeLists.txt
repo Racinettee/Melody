@@ -3,7 +3,7 @@ project (melody-game)
 
 set(CXX_STANDARD_REQUIRED ON)
 
-include_directories(AFTER "${melody_include}")
+include_directories(AFTER "${melody_include}" "${schemy_include}")
 
 set(game_source
 	Agent.cpp

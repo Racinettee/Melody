@@ -1,5 +1,7 @@
 cmake_minimum_required (VERSION 3.0)
 project (schemy-melody)
+add_subdirectory(drift-scheme)
+set(schemy_include ${CMAKE_CURRENT_SOURCE_DIR}/drift-scheme)
 add_subdirectory(Engine)
 add_subdirectory(Melody)
 add_subdirectory(ZombieGame)
