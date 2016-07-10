@@ -4,6 +4,8 @@
 *.lib
 *.so
 *.out
-bin/
+*.dll
 *.VC.db
 *.VC.db*
+bin/
+build/
